@@ -1,0 +1,53 @@
+.jumbotron {
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.cards-block {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin: 2rem;
+}
+
+.cards-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.search-block {
+    margin-bottom: 2rem;
+}
+
+.footer {
+    margin-top: 4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+.rating-mini {
+    display: inline-block;
+    font-size: 0;
+}
+
+.rating-mini span {
+    padding: 0;
+    font-size: 20px;
+    line-height: 1;
+    color: lightgrey;
+}
+
+.rating-mini>span:before {
+    content: '★';
+}
+
+.rating-mini>span.active {
+    color: gold;
+}
+
+.hidden {
+    display: none;
+}
